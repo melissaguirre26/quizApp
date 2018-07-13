@@ -1,0 +1,134 @@
+/*all styling goes here*/
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700,900|Questrial');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    color: #1F4C1C;
+}
+
+body {
+    background-image: url('http://payload394.cargocollective.com/1/13/421947/10180852/pattern_1_842.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h1 {
+    color:#fff; 
+}
+
+p {
+    display: inline-block;
+    line-height: 30px;
+}
+
+button {
+    display: block;
+    color: #555;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #eee;/*#D05D6D*/
+    border: none;
+    box-shadow: inset 0 -1px 3px #ccc, inset 0 3px 3px #fff;
+    transition: all 200ms ease;
+    border-radius: 10px;
+    margin:auto;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+.box {
+    background-color: #A13816;
+    border: 10px solid #8ED5B4;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.box::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.option {
+    background-color:#8ED5B4;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    
+}
+
+ .option:hover { 
+    background-color: #ffcccc;
+
+ }
+.score {
+    display: inline-block;
+}
+
+.lower {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.lower button {
+    float: right;
+    border-radius: 10px;
+}
+
+.lower span { /*1 out of 10, score*/ 
+    background-color:#8ED5B4;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.feedback {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.answer {
+    display: inline-block;
+    background-color: #8ED5B4;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+fieldset {
+    min-width: 0; 
+    display: block;
+    height: 100%;
+    border: 2px solid #8ED5B4;
+    width: 100%;
+    border-radius: 10px;
+}
+legend {
+  color:#eee;
+}
+@media only screen and (min-width: 350px) {
+      
+}
+
+@media only screen and (min-width: 550px) {
+
+}
+
+@media only screen and (min-width: 800px) {
+
+
+}
